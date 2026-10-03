@@ -1,0 +1,10 @@
+{
+  "validation": "held-out zones",
+  "samples_train": 1500,
+  "samples_test": 300,
+  "synthetic_event_rate_test": 0.5899999737739563,
+  "precision_at_safety_threshold": 0.6428571343421936,
+  "recall_at_safety_threshold": 0.9661016949152542,
+  "threshold": 0.11,
+  "limitation": "Synthetic-data validation only; calibrate on site histories."
+}

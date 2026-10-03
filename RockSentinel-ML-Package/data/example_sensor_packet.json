@@ -1,0 +1,14 @@
+{
+  "rainfall_24h_mm": 18.0,
+  "temperature_c": 25.0,
+  "soil_moisture_pct": 56.0,
+  "pore_pressure_kpa": 68.0,
+  "tilt_rate_deg_hr": 0.42,
+  "displacement_rate_mm_hr": 1.1,
+  "strain_microstrain": 215.0,
+  "vibration_rms_g": 0.31,
+  "dominant_frequency_hz": 13.2,
+  "crack_width_mm": 1.35,
+  "neighbour_consensus": 0.82,
+  "blast_window": 0
+}

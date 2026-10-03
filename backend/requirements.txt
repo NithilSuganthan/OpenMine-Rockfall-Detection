@@ -1,0 +1,15 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+sqlalchemy>=2.0
+pydantic>=2.7
+# RockSentinel ML package requirements
+joblib==1.5.3
+numpy>=2.0,<3
+pandas>=2.2,<4
+scikit-learn==1.8.0
+xgboost>=2.1
+torch>=2.6
+ultralytics>=8.4
+# Optional integrations
+paho-mqtt>=2.0
+psycopg2-binary>=2.9

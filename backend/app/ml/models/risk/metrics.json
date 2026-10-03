@@ -1,0 +1,40 @@
+{
+  "model": "random_forest",
+  "validation": "held-out zones (20%)",
+  "samples_train": 24109,
+  "samples_test": 5891,
+  "event_rate_test": 0.42845017823799014,
+  "roc_auc": 0.9509807717018494,
+  "average_precision": 0.9333582834080162,
+  "operating_threshold": 0.25142857142857145,
+  "precision_at_threshold": 0.7404791154791155,
+  "recall_at_threshold": 0.955229793977813,
+  "classification_report": {
+    "0": {
+      "precision": 0.9571157495256167,
+      "recall": 0.749034749034749,
+      "f1-score": 0.8403865378207265,
+      "support": 3367.0
+    },
+    "1": {
+      "precision": 0.7404791154791155,
+      "recall": 0.955229793977813,
+      "f1-score": 0.8342560553633218,
+      "support": 2524.0
+    },
+    "accuracy": 0.8373790527923952,
+    "macro avg": {
+      "precision": 0.8487974325023662,
+      "recall": 0.852132271506281,
+      "f1-score": 0.8373212965920241,
+      "support": 5891.0
+    },
+    "weighted avg": {
+      "precision": 0.864297745055515,
+      "recall": 0.8373790527923952,
+      "f1-score": 0.8377599315191665,
+      "support": 5891.0
+    }
+  },
+  "limitation": "Metrics are on synthetic data only and are not evidence of field accuracy."
+}
